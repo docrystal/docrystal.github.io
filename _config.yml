@@ -1,0 +1,42 @@
+name: info.docrystal.org
+description: Information by docrystal.org
+meta_description: "How to we provides docrystal.org"
+
+aboutPage: true
+
+markdown: redcarpet
+highlighter: pygments
+
+paginate: 20
+baseurl: /
+domain_name: 'http://info.docrystal.org'
+google_analytics: 'UA-65028879-3'
+disqus: false
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'http://info.docrystal.org'
+author:         'info.docrystal.org'
+authorTwitter:  'docrystal_org'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
