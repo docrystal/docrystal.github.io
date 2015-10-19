@@ -109,7 +109,7 @@ h2 {
 }
 
 nav.main-nav {
-	padding: 20px 20px 0;
+	padding: 20px 20px;
 
 	/*max-width: 600px;*/
 	/*width:100%;*/
@@ -641,4 +641,22 @@ h2.month {
 	.post h2.headline { font-size: 13px; }
 	.post h1 { font-size:24px; }
 	.post h2 { font-size:20px; }
+}
+
+#site-header {
+  margin: 0;
+  padding: 0;
+}
+
+#site-header a {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+#site-header img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 0;
 }
