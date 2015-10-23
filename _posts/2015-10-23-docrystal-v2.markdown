@@ -15,9 +15,9 @@ Docrystal v2 has new design. looks like `crystal doc` color.
 
 And New Logo and Icon!!
 
-![Icon](/assets/images/posts/docrystal-icon-360.png)
+![Icon](/assets/images/posts/docrystal-icon.svg)
 
-![Logo](/assets/images/posts/docrystal-logo.png)
+![Logo](/assets/images/posts/docrystal-logo.svg)
 
 If you like it. You can download this images SVG([Logo](/assets/images/posts/docrystal-logo.svg) / [Icon](/assets/images/posts/docrystal-icon.svg)).
 
